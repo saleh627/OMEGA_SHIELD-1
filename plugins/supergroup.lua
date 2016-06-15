@@ -247,7 +247,7 @@ local function lock_group_username(msg, data, target)
   if group_username_lock == 'yes' then
     return 'username posting is already locked'
   else
-    data[tostring(target)]['settings']['lock_username] = 'yes'
+    data[tostring(target)]['settings']['lock_username'] = 'yes'
     save_data(_config.moderation.data, data)
     return 'username posting has been locked'
   end
