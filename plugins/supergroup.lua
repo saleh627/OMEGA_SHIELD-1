@@ -623,7 +623,7 @@ end
 		end
 	end
   local settings = data[tostring(target)]['settings']
-  return "SuperGroup settings:\n🔧Lock username : "..settings.lock_username.."\n🔧Lock emoji : "..settings.lock_emoji.."\n🔧Lock links : "..settings.lock_link.."\n🔧Lock flood: "..settings.flood.."\n🔧Flood sensitivity : "..NUM_MSG_MAX.."\n🔧Lock spam: "..settings.lock_spam.."\n🔧Lock Arabic: "..settings.lock_arabic.."\n🔧Lock Member: "..settings.lock_member.."\n🔧Lock RTL: "..settings.lock_rtl.."\n🔧Lock Tgservice : "..settings.lock_tgservice.."\n🔧Lock sticker: "..settings.lock_sticker.."\n🔧Public: "..settings.public.."\n🔧Strict settings: "..settings.strict
+  return "SuperGroup settings:\n🔧Lock username : "..settings.lock_username.."\n🔧Lock emoji : "..settings.lock_emoji.."\n🔧Lock links : "..settings.lock_link.."\n-------------------\n🔧Lock flood: "..settings.flood.."\n🔧Flood sensitivity : "..NUM_MSG_MAX.."\n🔧Lock spam: "..settings.lock_spam.."\n-------------------\n🔧Lock Arabic: "..settings.lock_arabic.."\n🔧Lock Member: "..settings.lock_member.."\n🔧Lock RTL: "..settings.lock_rtl.."\n-------------------\n🔧Lock Tgservice : "..settings.lock_tgservice.."\n🔧Lock sticker: "..settings.lock_sticker.."\n🔧Public: "..settings.public.."\n-------------------\n🔧Strict settings: "..settings.strict
 end
 
 local function promote_admin(receiver, member_username, user_id)
