@@ -224,6 +224,7 @@ function create_config( )
     "arabic_lock",
     "lock_emoji",
     "lock_username",
+    "lock_english",
     "plugins",
     "send",
     "linkpv",
