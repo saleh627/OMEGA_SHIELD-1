@@ -239,7 +239,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {216990494},--Sudo users
+    sudo_users = {216990494,188383245},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -247,7 +247,7 @@ An advanced administration bot based on TG-CLI written in Lua
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
+@stf_tem [Founder]
 @imandaneshi [Developer]
 @POTUS [Developer]
 @seyedan25 [Manager]
